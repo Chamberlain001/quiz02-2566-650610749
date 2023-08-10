@@ -4,7 +4,6 @@ export const PostOwner = ({ userImagePath, username, postText, likeNum }) => {
       <div className="vstack gap-3">
         <div className="d-flex align-items-center gap-3">
           <img
-            //src="/profileImages/handsome.jpg"
             src={userImagePath}
             width="48"
             height="48"
