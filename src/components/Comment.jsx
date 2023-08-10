@@ -5,7 +5,7 @@ export const Comment = ({
   username,
   commentText,
   likeNum,
-  replies,
+  replies, //
 }) => {
   return (
     <div>

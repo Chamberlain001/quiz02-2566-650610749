@@ -29,7 +29,7 @@ export default function HomePage() {
             commentText={items.commentText}
             likeNum={items.likeNum}
             replies={items.replies}
-          />
+          /> //
         ))}
         ;{/* map-loop render Comment component here */}
       </div>
