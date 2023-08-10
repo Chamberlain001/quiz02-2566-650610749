@@ -5,7 +5,7 @@ export const Comment = ({
   username,
   commentText,
   likeNum,
-  replies, //
+  replies,
 }) => {
   return (
     <div>
@@ -37,7 +37,7 @@ export const Comment = ({
           </div>
         </div>
       </div>
-      {/* {replies.map((items) => (
+      {replies.map((items) => (
         <Reply
           key={items.username}
           username={items.username}
@@ -45,7 +45,7 @@ export const Comment = ({
           replyText={items.replyText}
           likeNum={items.likeNum}
         />
-      ))} */}
+      ))}
       {/* map-loop render Reply component here */}
     </div>
   );
